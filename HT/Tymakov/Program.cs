@@ -82,6 +82,13 @@ namespace Tymakov
                 Console.WriteLine(area[1]);
             }
 
+            void HT14_1()
+            {
+                Message("tests build attribute", 2);
+                Building first = Creator.GetBuilding(Creator.Create(100, 100, 10, 1));
+                Building second = Creator.GetBuilding(Creator.Create(200, 200, 20, 2));
+            }
+
             #endregion
             
             Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("ru");
@@ -107,6 +114,7 @@ namespace Tymakov
                     switch (number)
                     {
                         case "13_2": HT13_2(); break; 
+                        case "14_1": HT14_1(); break;
                         default: Console.WriteLine("This is not a command or a number of task"); break;
                     }
                 }

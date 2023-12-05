@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankTools", "BankTools\Bank
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingMaster", "BuildingMaster\BuildingMaster.csproj", "{697323E4-6513-4767-86B5-AE7461F18648}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathTools", "MathTools\MathTools.csproj", "{C9FD442B-0CE5-41F4-B8D9-58269BC7E240}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{697323E4-6513-4767-86B5-AE7461F18648}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{697323E4-6513-4767-86B5-AE7461F18648}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{697323E4-6513-4767-86B5-AE7461F18648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9FD442B-0CE5-41F4-B8D9-58269BC7E240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9FD442B-0CE5-41F4-B8D9-58269BC7E240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9FD442B-0CE5-41F4-B8D9-58269BC7E240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9FD442B-0CE5-41F4-B8D9-58269BC7E240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

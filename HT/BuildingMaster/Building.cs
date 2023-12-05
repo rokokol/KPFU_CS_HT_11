@@ -2,6 +2,7 @@
 
 namespace BuildingMaster
 {
+    [Build("Anton", "OOOGovoStroi")]
     public class Building
     {
         private static uint lastId;

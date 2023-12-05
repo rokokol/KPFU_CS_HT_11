@@ -5,11 +5,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{697323E4-6513-4767-86B5-AE7461F18648}</ProjectGuid>
+        <ProjectGuid>{C9FD442B-0CE5-41F4-B8D9-58269BC7E240}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>BuildingMaster</RootNamespace>
-        <AssemblyName>BuildingMaster</AssemblyName>
+        <RootNamespace>MathTools</RootNamespace>
+        <AssemblyName>MathTools</AssemblyName>
         <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
@@ -39,11 +39,10 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Area.cs" />
-        <Compile Include="Building.cs" />
-        <Compile Include="BuildAttribute.cs" />
-        <Compile Include="Creator.cs" />
+        <Compile Include="ComplexNumber.cs" />
+        <Compile Include="DeveloperInfoAttribute.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="RationalNumber.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
