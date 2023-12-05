@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tymakov", "Tymakov\Tymakov.csproj", "{C757A044-11C6-4C02-A8DC-72F696839367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankTools", "BankTools\BankTools.csproj", "{1542E079-5568-4D30-B417-02564A1ADD53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingMaster", "BuildingMaster\BuildingMaster.csproj", "{697323E4-6513-4767-86B5-AE7461F18648}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C757A044-11C6-4C02-A8DC-72F696839367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C757A044-11C6-4C02-A8DC-72F696839367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C757A044-11C6-4C02-A8DC-72F696839367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C757A044-11C6-4C02-A8DC-72F696839367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1542E079-5568-4D30-B417-02564A1ADD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1542E079-5568-4D30-B417-02564A1ADD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1542E079-5568-4D30-B417-02564A1ADD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1542E079-5568-4D30-B417-02564A1ADD53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{697323E4-6513-4767-86B5-AE7461F18648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697323E4-6513-4767-86B5-AE7461F18648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697323E4-6513-4767-86B5-AE7461F18648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697323E4-6513-4767-86B5-AE7461F18648}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
